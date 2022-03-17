@@ -1,0 +1,19 @@
+{
+  "name": "aws-developer-project",
+  "version": "1.0.0",
+  "description": "Monorepo project for the AWS Developer training",
+  "main": "index.js",
+  "workspaces": [
+    "aws-dev-server",
+    "aws-ec2-instance-metadata"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build --workspaces",
+    "start": "npm run start --workspaces"
+  },
+  "author": "dzmitry.karneyenka",
+  "license": "ISC",
+  "dependencies": {
+  }
+}

@@ -1,0 +1,1 @@
+declare module "aws-ec2-instance-metadata";
